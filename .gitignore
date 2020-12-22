@@ -2,3 +2,4 @@ sauce-playwright-runner/
 saucectl/
 *node_modules/
 tests/basic-js/__assets__/
+basic-js/node_modules/*
