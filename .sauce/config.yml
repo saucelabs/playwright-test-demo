@@ -11,12 +11,12 @@ sauce:
     build: Release $CI_COMMIT_SHORT_SHA
 docker:
   image:
-    name: saucelabs/stt-playwright-jest-node
+    name: saucelabs/stt-playwright-folio-node
     tag: latest
 playwright:
   projectPath: ./tests/
   param:
-    browserName: "firefox"
+    browserName: "webkit"
 suites:
   - name: "default"
     param:
