@@ -10,7 +10,7 @@ on:
     branches: [ main ]
 
 jobs:
-  build:
+  saucectl:
     runs-on: ubuntu-latest
     #container:
       #image: saucelabs/stt-playwright-jest-node:v0.0.1
