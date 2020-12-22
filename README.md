@@ -56,9 +56,15 @@ Open job details page: https://app.saucelabs.com/tests/d17a4eeaa95f46f18e0d22380
 
 Follow that link to see the test
 
+## GitHub Actions
+
+Example of `saucectl` running as a GitHub Action: https://github.com/saucelabs/playwright-test-demo/pull/2/checks?check_run_id=1597465811
+
+The yaml is (saucectl.yml)[./.github/workflows/saucectl.yml]
+
 ## Notes
 
-This repo uses a version of saucectl that hasn't been widely released yet. Once this version is merged and published, you will be able to install this via `npm` (`npm install -g saucectl`)
+* This repo uses a version of saucectl that hasn't been widely released yet. Once this version is merged and published, you will be able to install this via `npm` (`npm install -g saucectl`)
 
 ## Roadmap
 
