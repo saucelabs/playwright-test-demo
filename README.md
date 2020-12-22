@@ -15,13 +15,14 @@ There is two options:
 
  If no account is set, the job will run, but no assets will be uploaded.
 
-## Usage with dockerdocker
+## Example
 
 This demo requires a specifically build version of `saucectl` which is available in thie `saucectl_bin/` folder.
 It is build from [saucectl@playwright-native-config](https://github.com/saucelabs/saucectl/tree/playwright-native-config).
 
 ```bash
-./saucectl_bin/saucectl_darwin run
+./saucectl_bin/saucectl_darwin run # macOS
+./saucectl_bin/saucectl_win64.exe run # Windows
 ```
 
 Example output:
