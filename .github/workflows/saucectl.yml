@@ -12,8 +12,8 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
-    container:
-      image: saucelabs/stt-playwright-jest-node:latest
+    #container:
+      #image: saucelabs/stt-playwright-jest-node:v0.0.1
     steps:
     - uses: actions/checkout@v2
     - name: Use Node.js 12.x
