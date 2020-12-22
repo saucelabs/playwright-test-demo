@@ -13,8 +13,8 @@ There is two options:
 
 ## Example
 
-This demo requires a specifically build version of `saucectl` which is available in thie `saucectl_bin/` folder.
-It is build from [saucectl@playwright-native-config](https://github.com/saucelabs/saucectl/tree/playwright-native-config).
+This demo uses a beta version of `saucectl` which is committed in the `saucectl_bin/` folder.
+It is built from [saucectl@playwright-native-config](https://github.com/saucelabs/saucectl/tree/playwright-native-config).
 
 ```bash
 ./saucectl_bin/saucectl_darwin run # macOS
@@ -70,10 +70,6 @@ This example can be run locally like this:
 ./saucectl_bin/saucectl_darwin run # macOS
 ./saucectl_bin/saucectl_win64.exe run # Windows
 ```
-
-## Notes
-
-* This repo uses a version of saucectl that hasn't been widely released yet. Once this version is merged and published, you will be able to install this via `npm` (`npm install -g saucectl`)
 
 ## Config
 
