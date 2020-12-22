@@ -1,7 +1,7 @@
 {
     "folio": {
         "param": {
-            "browserName": "webkit"
+            "browserName": "chromium"
         }
     },
     "suites": [
