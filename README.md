@@ -1,10 +1,10 @@
 # Playwright Test Demo
 
-This is a repository for demonstrating [Playwright Test](https://github.com/microsoft/playwright-test) usage with Sauce Labs
+Demonstration of [Playwright Test](https://github.com/microsoft/playwright-test) usage with Sauce Labs
 
 ## Example Job
 
-Example of a Sauce Labs job that runs this test: (TODO: Link to a job)
+Example of a Sauce Labs job that runs this test: (TODO: Link to a Github Workflow action)
 
 ## Usage with Docker
 
