@@ -11,16 +11,16 @@ on:
 
 jobs:
   build:
-    runs-on: macos-latest
-    #container:
-      #image: saucelabs/stt-playwright-jest-node:latest
+    runs-on: ubuntu-latest
+    container:
+      image: saucelabs/stt-playwright-jest-node:latest
     steps:
     - uses: actions/checkout@v2
     - name: Use Node.js 12.x
       uses: actions/setup-node@v1
       with:
         node-version: 12.x
-    - run: ./saucectl_bin/saucectl_darwin run
+    - run: ./saucectl_bin/saucectl_linux_i386 run
       env:
         SAUCE_USERNAME: ${{ secrets.SAUCE_USERNAME }}
         SAUCE_ACCESS_KEY: ${{ secrets.SAUCE_ACCESS_KEY }}
