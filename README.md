@@ -20,11 +20,11 @@ pushd ./sauce-playwright-runner && make docker && popd # Builds the docker conta
 A link to the job will be provided in the output of the Saucectl command:
 
 ```
+Open job details page: https://app.saucelabs.com/tests/fdb5b2fa153f4c22b68e73a04239185c
 ```
 
 Follow that link to see the test
 
 ## Roadmap
 
-Next step for early 2021 is to make this available in the cloud so that these tests can run inside of a Sauce Labs VM instead of just Docker.
-
+Currently these tests are running in Docker containers. Early 2021 we will be adding Playwright to our VM's so that they can run in the cloud.
