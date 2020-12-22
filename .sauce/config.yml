@@ -1,5 +1,5 @@
 apiVersion: v1alpha
-kind: folio
+kind: playwright
 sauce:
   region: us-west-1
   metadata:
@@ -13,7 +13,8 @@ docker:
   image:
     name: saucelabs/stt-playwright-jest-node
     tag: latest
-folio:
+playwright:
+  projectPath: ./tests/
   param:
     browserName: "firefox"
 suites:
