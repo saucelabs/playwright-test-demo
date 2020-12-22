@@ -4,11 +4,7 @@ Demonstration of [Playwright Test](https://github.com/microsoft/playwright-test)
 
 ## Example Job
 
-<<<<<<< HEAD
-Example of a Sauce Labs job that runs this test: (TODO: Link to a Github Workflow action)
-=======
 Example of a Sauce Labs job that runs this test: https://app.saucelabs.com/tests/0ff4307a39c44151beccd91bc543f71d
->>>>>>> faf68f43a2487a099fde50ea1ad0a68c4c786a96
 
 ## Prerequisites
 
@@ -58,6 +54,10 @@ Open job details page: https://app.saucelabs.com/tests/d17a4eeaa95f46f18e0d22380
 ```
 
 Follow that link to see the test
+
+## Notes
+
+This repo uses a version of saucectl that hasn't been widely released yet. Once this version is merged and published, you will be able to install this via `npm` (`npm install -g saucectl`)
 
 ## Roadmap
 
