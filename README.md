@@ -60,7 +60,7 @@ Follow that link to see the test
 
 Example of `saucectl` running as a GitHub Action: https://github.com/saucelabs/playwright-test-demo/pull/2/checks?check_run_id=1597465811
 
-The yaml is (saucectl.yml)[./.github/workflows/saucectl.yml]
+The yaml is [saucectl.yml](./.github/workflows/saucectl.yml)
 
 ## Notes
 
